@@ -1,18 +1,6 @@
 require 'minitest/autorun'
 require 'timeout'
-
-class CustomerSuccessBalancing
-  def initialize(customer_success, customers, away_customer_success)
-    @customer_success = customer_success
-    @customers = customers
-    @away_customer_success = away_customer_success
-  end
-
-  # Returns the ID of the customer success with most customers
-  def execute
-    # Write your solution here
-  end
-end
+require './lib/customer_success_balancing'
 
 class CustomerSuccessBalancingTests < Minitest::Test
   def test_scenario_one
