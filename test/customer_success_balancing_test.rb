@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'timeout'
-require '../lib/customer_success_balancing'
+require './lib/customer_success_balancing'
 
 class CustomerSuccessBalancingTests < Minitest::Test
   def test_scenario_one
